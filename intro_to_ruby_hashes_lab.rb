@@ -25,7 +25,7 @@ my_hash_creator("Grace","Hopper")
 def read_from_hash(hash, key)
   hash[key]
 end
-h=
+h={name: "steve", name: "Ts"
   
 
 def update_counting_hash(hash, key)
