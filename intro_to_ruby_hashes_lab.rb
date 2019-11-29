@@ -16,14 +16,14 @@ def id_generator
 end
 
 def my_hash_creator(key,value)
-return {:key => value}
+return {key => value}
 end
 my_hash_creator("Grace","Hopper")
  
 
 
 def read_from_hash(hash, key)
-  return hash = {:key => "steve", :key=> "tsvi"}
+  return hash = {key => "steve", :key=> "tsvi"}
 end
 
 def update_counting_hash(hash, key)
