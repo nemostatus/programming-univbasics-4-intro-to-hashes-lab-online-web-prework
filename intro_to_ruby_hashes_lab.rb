@@ -23,6 +23,7 @@ my_hash_creator("Grace","Hopper")
 
 
 def read_from_hash(hash, key)
+  hash[key]
   
 
 def update_counting_hash(hash, key)
