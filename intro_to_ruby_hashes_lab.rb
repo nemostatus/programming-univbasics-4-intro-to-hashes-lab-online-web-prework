@@ -29,5 +29,5 @@ h={name: "steve"}
   
 
 def update_counting_hash(hash, key)
-  
+  if
 end
