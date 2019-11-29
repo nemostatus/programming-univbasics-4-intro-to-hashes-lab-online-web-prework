@@ -23,8 +23,9 @@ my_hash_creator("Grace","Hopper")
 
 
 def read_from_hash(hash, key)
-  return hash = {key => "steve", :key=> "tsvi"}
+  return hash = {key: "steve", key: "tsvi"}
 end
+read_from_hash("hash","name")
 
 def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
